@@ -1,19 +1,20 @@
-.col1{
-	background-color: yellow;
+.nav a{
+	color: white;
+	font-weight: bold;
 }
 
-.col2{
-	background-color: red;
+.nav a:hover{
+	color: black;
+	
 }
 
-.col3{
-	background-color: green;
-}
-
-.col4{
-	background-color: aqua;
-}
-
-.text-center{
+.nav-pills li{
 	text-align: center;
+	margin: 0 5vw;
+}
+
+@media screen and (max-width: 537px) {
+	.nav a{
+		font-size: 75%;
+	}
 }
